@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
+  <title>STAR WARS Character Search!</title>
+  <link rel='stylesheet' href='index.css'/>
+  <head>
+    <script type="text/javascript">
+        function showMessage() {
+            alert("Now, click the name and you'll see your character's home world!");
+        }
+    </script>
+</head>
+<body>
+  <div id='main'>
+    <link rel='stylesheet' href='index.css'/>
+
+    <h2>Find out the home world of your favorite STAR WARS character! Just enter the full or partial name and click SUBMIT!</h2>
+
+    <form id='project-form'>
+      <input id='search' type='text' name='search'>
+      <input type='submit' name='submit'onClick="showMessage()"/>
+    <div id='project-form'>
+      <ul id='character-list'>
+       <h4>character</h4>
+    </div>
+      </ul>
+    </form>
+
+    <div id='project-container'>
+      <ul id='homeworld-list'>
+        <p><strong>homeworld</strong></p>
+      </ul>
+    </div>
+
+  </div>
+  <script src='js/index.js'></script>
+</body>
+</html>
