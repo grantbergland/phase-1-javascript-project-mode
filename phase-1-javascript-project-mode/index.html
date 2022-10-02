@@ -3,38 +3,72 @@
   <meta charset='UTF-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
-  <title>STAR WARS Character Search!</title>
+  <title>Superhero Search!</title>
   <link rel='stylesheet' href='index.css'/>
-  <head>
-    <script type="text/javascript">
-        function showMessage() {
-            alert("Now, click the name and you'll see your character's home world!");
-        }
-    </script>
 </head>
 <body>
+    <body style="background-color:rgb(93, 118, 136);">
   <div id='main'>
-    <link rel='stylesheet' href='index.css'/>
-
-    <h2>Find out the home world of your favorite STAR WARS character! Just enter the full or partial name and click SUBMIT!</h2>
-
-    <form id='project-form'>
+    <h2>Superhero Search</h2>
+    <h3>Type the name of any superhero and learn more about them!</h3>
+    <h4>(Supergirl provided below for an example)</h4>
+<center>
+    <form id='form'>
       <input id='search' type='text' name='search'>
-      <input type='submit' name='submit'onClick="showMessage()"/>
-    <div id='project-form'>
-      <ul id='character-list'>
-       <h4>character</h4>
+      <input type='submit' name='submit'/>
+    <div id='form'>
+      <ul id='hero-list'>
     </div>
-      </ul>
-    </form>
+    <div class = "app-body">
+      <div class = "app-body-content">
+          <!-- app body thumbnail -->
+          <div class = "app-body-content-thumbnail">
+              <img src = "images/790.jpg">
+          </div>
+          <!-- end of app body thumbnail -->
 
-    <div id='project-container'>
-      <ul id='homeworld-list'>
-        <p><strong>homeworld</strong></p>
-      </ul>
-    </div>
-
+          <div class = "app-body-content-list">
+              <div class = "name"><strong>Supergirl</strong></div>
+                      <span><strong>BIOGRAPHY</strong></span>
+              </div>
+</center>
+              <div class = "app-body-tabs-body">
+                  <ul class = "tab-body-single biography">
+                      <li>
+                          <span><strong>FULL NAME:</strong></span>
+                          <span>Kara Zor-El</span>
+                      </li>
+                      <li>
+                          <span><strong>ALTER EGOS:</strong></span>
+                          <span>No alter egos found.</span>
+                      </li>
+                      <li>
+                          <span><strong>ALIASES:</strong></span>
+                          <span>Linda Lang,Kara-El,Kara Kent,Flamebird</span>
+                      </li>
+                      <li>
+                          <span><strong>PLACE OF BIRTH:</strong></span>
+                          <span>Argo City, Krypton</span>
+                      </li>
+                      <li>
+                          <span><STRONG>FIRST APPEARANCE:</STRONG></span>
+                          <span>Superman/Batman #8 (May, 2004)</span>
+                      </li>
+                      <li>
+                          <span><STRONG>PUBLISHER:</STRONG></span>
+                          <span>DC Comics</span>
+                      </li>
+                  </ul>
+          </div>
+          <div id='form-container'>
+            <ul id='hero-list'>
+              <p><strong>Relatives: </strong></p>
+           
+          </div>
+        <input type="button" value="Reload Page" onClick="document.location.reload(true)">
+	</form>
   </div>
-  <script src='js/index.js'></script>
+  <script src='js/index.js'>
+</script> 
 </body>
 </html>
