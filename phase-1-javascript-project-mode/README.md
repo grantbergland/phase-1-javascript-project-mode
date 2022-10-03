@@ -5,8 +5,11 @@ Check it out below!
   <img width="550" height="800" src=demo.gif>
 </p>
 
+I made this because I wanted an app that would populate with great images of superheroes and make it possible for someone to access obscure facts about their superhero of choice. As a comic book geek, I wanted to be able to look up family members of superheroes so that I could win trivia contests.
 
-My code was inspired by Sergio Perez's "Fetching the original Pokemon using the Poke API" at https://medium.com/@sergio13prez/fetching-them-all-poke-api-62ca580981a2, the GitHub Search App in the flatiron lesson found here: https://git@github.com:grantbergland/phase-1-github-search-app.git, and Ashutosh Mohanty's "Dev_Hero_Superhero_Search_Engine on GitHub at https://git@github.com:Ashutosh102/DevHero_SuperHero_search_Engine.git
+Because I needed 3 event listeners to fulfill the assignment, I embedded an alert message and a mouseover message in addition to DOMContentLoaded.
+
+My code was inspired by Sergio Perez's "Fetching the original Pokemon using the Poke API" at https://medium.com/@sergio13prez/fetching-them-all-poke-api-62ca580981a2, the GitHub Search App in the flatiron lesson and Ashutosh Mohanty's "Dev_Hero_Superhero_Search_Engine on GitHub.
 
 I used the Superhero API at https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/all.json
 
