@@ -1,7 +1,10 @@
-<p align="center">
 # Superhero Search! 
-![](demo.gif)
- </p>
+This project was written to fulfill the Phase-1 requirements for the Flatiron School's software engineering program. 
+Check it out below!
+<p align="center">
+  <img width="550" height="800" src=demo.gif>
+</p>
+
 
 My code was inspired by Sergio Perez's "Fetching the original Pokemon using the Poke API" at https://medium.com/@sergio13prez/fetching-them-all-poke-api-62ca580981a2, the GitHub Search App in the flatiron lesson found here: https://git@github.com:grantbergland/phase-1-github-search-app.git, and Ashutosh Mohanty's "Dev_Hero_Superhero_Search_Engine on GitHub at https://git@github.com:Ashutosh102/DevHero_SuperHero_search_Engine.git
 
