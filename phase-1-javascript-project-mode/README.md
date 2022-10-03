@@ -12,10 +12,12 @@ To install, fork and clone this lab into your local environment. Click on index.
 Enter the full or partial name of your favorite superhero and click SEARCH:
 <p align="center">
   <img width="500" height="400" src=example1.png>
+  <p></p>
 </p>
 Then hover your mouse over "Relatives" and you will see your hero's family.
 <p align="center">
-  <img width="500" height="400" src=example2.png>
+  <img width="500" height="400" src=example3.png>
+  <p></p>
 </p>
 Hit RELOAD to refresh the page.
 
