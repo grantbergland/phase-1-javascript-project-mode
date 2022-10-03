@@ -9,7 +9,11 @@ Check it out below!
 To install, fork and clone this lab into your local environment. Click on index.html to open the app in your browser.
 
 # Usage
-Enter the full or partial name of your favorite superhero and click SEARCH
+Enter the full or partial name of your favorite superhero and click SEARCH:
+<p align="center">
+  <img width="550" height="800" src=search.png>
+</p>
+
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
