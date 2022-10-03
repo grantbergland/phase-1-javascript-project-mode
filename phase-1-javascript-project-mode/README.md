@@ -5,6 +5,11 @@ Check it out below!
   <img width="550" height="800" src=demo.gif>
 </p>
 
+# Description
+I made this because I wanted an app that would populate with great images of superheroes and make it possible for someone to access obscure facts about their superhero of choice. As a comic book geek, I wanted to be able to look up family members of superheroes so that I could win trivia contests.
+
+Because I needed 3 event listeners to fulfill the assignment, I embedded an alert message and a mouseover message in addition to DOMContentLoaded.
+
 # Installation
 To install, fork and clone this lab into your local environment. Click on index.html to open the app in your browser.
 
@@ -21,15 +26,19 @@ Then hover your mouse over "Relatives" and you will see your hero's family.
   <p></p>
 </p>
 Then hit RELOAD to refresh the page.
+<p></p>
+<p></p>
+<p align="center">
+  <img width="400" height="200" src=example4.png>
+  <p></p>
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-I made this because I wanted an app that would populate with great images of superheroes and make it possible for someone to access obscure facts about their superhero of choice. As a comic book geek, I wanted to be able to look up family members of superheroes so that I could win trivia contests.
-
-Because I needed 3 event listeners to fulfill the assignment, I embedded an alert message and a mouseover message in addition to DOMContentLoaded.
-
+# Acknowledgment
 My code was inspired by Sergio Perez's "Fetching the original Pokemon using the Poke API" at https://medium.com/@sergio13prez/fetching-them-all-poke-api-62ca580981a2, the GitHub Search App in the flatiron lesson and Ashutosh Mohanty's "Dev_Hero_Superhero_Search_Engine on GitHub.
+
+# Resources
 
 I used the Superhero API at https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/all.json
 
