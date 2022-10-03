@@ -15,11 +15,12 @@ Enter the full or partial name of your favorite superhero and click SEARCH:
   <p></p>
 </p>
 Then hover your mouse over "Relatives" and you will see your hero's family.
+   <p></p>
 <p align="center">
   <img width="500" height="400" src=example3.png>
   <p></p>
 </p>
-Hit RELOAD to refresh the page.
+Then hit RELOAD to refresh the page.
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
