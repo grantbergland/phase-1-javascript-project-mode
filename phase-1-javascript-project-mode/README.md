@@ -17,6 +17,7 @@ Then hover your mouse over "Relatives" and you will see your hero's family.
 <p align="center">
   <img width="500" height="400" src=example2.png>
 </p>
+Hit RELOAD to refresh the page.
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
