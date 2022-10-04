@@ -4,9 +4,7 @@
 
 let allSuperheroes = []
 let url = (`https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/all.json`)
-
 const relatives = document.querySelector('#hero-list p')
-
 
 //3.To prove his worth, the wizard needed his entire spell to be brought into being and add the other spells one at a time. Other wizards cast spells near GRANT but he ignored them, it was his time to speak. PHASE-1 was a complicated spell and the penalties were life and death, so he spoke the spell many times checking it each time to make sure it worked right but he first spoke one spell. That first spell had a name. Its name was 'DOMContentLoaded'
 
@@ -23,13 +21,13 @@ window.addEventListener('DOMContentLoaded', async () => {
 //4. Some of the other wizards scoffed at his 'DOMContentLoaded' spell and said it is never really used anywhere and it's one of the stupid spells, but he used it anyway. The other wizards watched him, waiting for him to fail or succeed. He had the humility to check his work using another spell called console.log then with two wisks of his finger he made that part of the spell become transparent. He needed to absorb the power of the API so he cast 'fetch' and then took that power, iterated it, and stored it in a container he called allSuperheroes.
 
 const init = () => {
-    const form2 = document.getElementById('form2');
+    const form = document.getElementById('form');
 
 //5. With the preliminary work done, he spoke the words "init" and asked the gods to listen for his next question. He made the spell asynchronous so it could orbit the spell like rings around a planet, always there and ready to be seen. The other wizards mumbled he was doing it all wrong, he needed to write a series of functions not use "init" but GRANT knew there was more than one way to the throne room of the Gods.
 
 //*******UNIQUE EVENT LISTENER #2
 
-    form2.addEventListener('submit', async function (event) {
+    form.addEventListener('submit', async function (event) {
         event.preventDefault();
         const input = document.querySelector('input#search');
         console.log(input.value);
@@ -40,8 +38,6 @@ const init = () => {
 //6. Names, powers, pictures, and legends flowed into data_1, a different place he used to hold the substance of what he drew from API. But, this one he held in his hand, like a single grain of sand as it glowed. Knowledge can be a beautiful thing, he thought, but it means little without a little direction. The most gentle of breezes is never felt if it blows the wrong way, so he cast "alert" and told the gods the next step.
 
         alert('Now, hover your mouse over RELATIVES and see a list of their family !');
-        
-
 
 //7. The Gods spoke  and asked for something called 'Batman', the spell returned three arrays that looked like this:
 //{id: '69', name: 'Batman', powerstats: {…}, biography: {…}, appearance: {…}, …}
@@ -99,11 +95,10 @@ const init = () => {
                 famGraph.innerText = r
                 relatives.append(famGraph)})},
                 {once: true});
-
+again
 //11. The forEach spell took each element he summoned and created it on the HTML page, again and  creating elements until there was no more. To be sure his spell was protected, he embedded  <input type="button" value="Reload Page" onClick="document.location.reload(true)"> in the last part of his HTML code so he could make it easy for the Gods to use his creation again and again.
 
     })}
   init()
-
 
 //12. Then he invoked init() and it was finished. Basic spells, all together. But, they still worked. He still wanted to add a spell for if the Gods made a mistake when they requested the data using .catch(error => alert('Please check your spelling and try again')); but, it was time to finish. GRANT smiled, his face asking a question. The Gods shrugged and gave him the next book of spells called Phase-2 appeared in GRANT's hands. He opened the book and looked inside....
