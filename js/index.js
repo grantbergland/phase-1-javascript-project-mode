@@ -1,13 +1,13 @@
 //FLATIRON SCHOOL PHASE-1 PROJECT
 
-
+const input = document.querySelector('input#search');
+const relatives = document.querySelector('#hero-list p');
+const form = document.getElementById('form');
 
 //UNIQUE EVENT LISTENER #1
 window.addEventListener('load', () => {
     console.log('Hello and welcome to the code for the Phase I project for Flatiron School!');
 });
-
-
 
 //UNIQUE EVENT LISTENER #2
 document.addEventListener('keydown', (e) => {
@@ -27,22 +27,13 @@ document.addEventListener('keydown', (e) => {
     }
   })
 
-
-
 const init = () => {
-    const form2 = document.getElementById('form2');
-
-
 
 //UNIQUE EVENT LISTENER #3
-    form2.addEventListener('submit', async function (event) {
+    form.addEventListener('submit', async function (event) {
         event.preventDefault();
-        const input = document.querySelector('input#search');
         const response = await fetch(`https://www.superheroapi.com/api.php/1216454192525968/search/${input.value}`);
         const data_1 = await response.json();
-        alert('Now, hover your mouse over RELATIVES and see a list of their family !');
-    
-        
 
 //DATA POPULATION
         document.querySelector('.app-body-content-thumbnail').innerHTML = `
@@ -77,20 +68,19 @@ const init = () => {
     let relativesArray = data_1.results[0].connections.relatives.split(", ")
     //console.log("relativesArray", relativesArray)
 
-
+    alert('OH YEAH!! AS A BONUS.... hover your mouse over RELATIVES and see a list of their family members!');
 
 //UNIQUE EVENT LISTENER #4 BONUS
     relatives.addEventListener('mouseover', () => {
-
-
         
 //ARRAY ITERATION
             relativesArray.forEach( r => {
                 const famGraph = document.createElement("p")
                 famGraph.innerText = r
-                relatives.append(famGraph)})},
-                {once: true});
+                relatives.append(famGraph)
+            })
+        },
+        {once: true}
+    );
     })}
   init()
-  
-  const relatives = document.querySelector('#hero-list p')
